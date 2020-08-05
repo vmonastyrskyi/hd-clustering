@@ -2,8 +2,6 @@
 
 This is the High Dimensional Clustering web-client made with JavaScript.  
 
-This program allows you to define the contours of objects in the image. You can also load, change the contrast and saturation of the image.
-
 ## Technologies
 
 - JavaScript  
@@ -12,14 +10,8 @@ This program allows you to define the contours of objects in the image. You can 
 
 ### Demo
 
-The main page:
-![alt text](https://i.yapx.ru/Ia2Wr.png)
-
-Upload your image:
-![alt text](https://i.imgur.com/ESXIeMq.png)
-
-Apply contour detection:
-![alt text](https://i.imgur.com/Mr5Re16.png)
+Result of clustering:
+![alt text](https://i.imgur.com/sew6UPM.png)
 
 ## License
 
