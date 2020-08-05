@@ -1,4 +1,4 @@
-# Image Editor
+# High Dimensional Clustering
 
 This is the High Dimensional Clustering web-client made with JavaScript.  
 
