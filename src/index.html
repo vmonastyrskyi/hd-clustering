@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>K-Means Clustering</title>
+</head>
+<body>
+<div class="container">
+    <div class="row d-flex justify-content-center p-4">
+        <img id="image" alt="" src=""/>
+    </div>
+    <div class="row d-flex justify-content-center p-2">
+        <div class="col-3 custom-file">
+            <input type="file" class="custom-file-input" id="uploadFile">
+            <label class="custom-file-label" for="uploadFile">Загрузить изображение</label>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center p-2">
+        <p class="col-5 range-field">
+            <label id="nClustersLabel" for="nClusters">Количество кластеров: 2</label>
+            <input id="nClusters" type="range" class="custom-range" min="2" max="32" value="2">
+        </p>
+    </div>
+    <div class="col d-flex justify-content-center">
+        <button id="clustering" class="btn btn-primary" type="button">
+            Кластеризация
+        </button>
+    </div>
+    <div class="col p-2 bd-highlight">
+        <div id="result" class="d-flex justify-content-center align-items-end"></div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+</html>
